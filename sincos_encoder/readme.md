@@ -8,8 +8,10 @@ choose the right hardware version, or the vesc will brick, can use stm32 nucleo 
 
 ours are: 
 
+'''c++
 define HW_SOURCE "hw_410.c" // Also for 4.11 and 4.12
 define HW_HEADER "hw_410.h" // Also for 4.11 and 4.12
+'''
 
 ## 2. 
 
