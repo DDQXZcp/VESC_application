@@ -13,9 +13,10 @@ define HW_SOURCE "hw_410.c" // Also for 4.11 and 4.12
 define HW_HEADER "hw_410.h" // Also for 4.11 and 4.12
 ~~~
 
-## 2. 
+## 2. hw_410.h
 
-Add the following
-
+Add the following, it is copied from hw_axiom.h
+~~~
 // HW properties
 #define HW_HAS_SIN_COS_ENCODER
+~~~
