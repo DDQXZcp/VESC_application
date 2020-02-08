@@ -24,3 +24,9 @@ The .bin name must contain "VESC" at the front
 2. Open it and it will fail by missing a package, use sudo apt-get xxx to install it
 
 3. Then VESC_tool should be able to opened normally
+
+## Folder
+
+1. sincos_encoder: research done to control DJI M3508 motor by VESC(not successful yet)
+
+2. PID code: mcpwm.cpp
