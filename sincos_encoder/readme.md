@@ -25,7 +25,18 @@ Add the following, it is copied from hw_axiom.h
 
 The key function
 
+change the amplitude to corresponding voltage level(for M3508 is 0.3-1.8)
 
+~~~
+#define SINCOS_MIN_AMPLITUDE		0.3//1.0			// sqrt(sin^2 + cos^2) has to be larger than this
+#define SINCOS_MAX_AMPLITUDE		1.7//1.65		// sqrt(sin^2 + cos^2) has to be smaller than this
+~~~
+
+But the range is not fit, need manual adjustment
+
+~~~
+
+~~~
 
 ## utils.h 
 
