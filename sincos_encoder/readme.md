@@ -4,7 +4,7 @@
 
 The most inportant!!! 
 
-choose the right hardware version, or the vesc will brick, can use stm32 nucleo board to recover(through ST-link, in windows)
+choose the right hardware version, or the vesc will brick. We can use stm32 nucleo board to recover(through ST-link, in windows)
 
 ours are: 
 
@@ -90,7 +90,9 @@ Key sentence is this one
 float angle_tmp = (utils_fast_atan2(cos, sin) * 180.0 / M_PI + 170)*5;
 ~~~
 
-But still have not figure out why the drop is not sudden but gradually(There are 7 rise & fall of M3508)
+But still have not figured out why the drop is not sudden but gradually 
+
+(There are 7 rise & fall of M3508, corresponding to 7 pair of magnets)
 
 ## utils.h 
 
