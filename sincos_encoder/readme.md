@@ -90,11 +90,11 @@ Key sentence is this one
 float angle_tmp = (utils_fast_atan2(cos, sin) * 180.0 / M_PI + 170)*5;
 ~~~
 
-But still have not figure out why the drop is not sudden but gradually
+But still have not figure out why the drop is not sudden but gradually(There are 7 rise & fall of M3508)
 
 ## utils.h 
 
-There is a fast arctan function, which will result in the sudden drop of the M3508 motor
+There is a fast arctan function, which should result in the sudden drop of the M3508 motor
 
 ~~~
 float utils_fast_atan2(float y, float x) {
